@@ -3,19 +3,21 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<meta name="author" content="Christian Romano">
+		<meta name="keywords" content="CV, Ingeniero, Buenos Aires, Oil&Gas, Argentina">
 	</head>
 	<body>
 		<header>
-			<svg width="100px" height="100px" viewbox="0 0 100 100">
-				<image xlink:href="imagenes/logo.svg" width="100px" height="100px"></image>
+			<img src="imagenes/logo.svg" width="100px" height="100px" title="Christian Romano" alt="Logo"></image>
+			
 			</svg>
 			<div>
 				<h1>Curriculum Vitae</h1>
 				<h2>Datos Personales</h2>
-				<h3> Nombres: Christian David</h3>
-				<h3> Apellido: Romano</h3>
-				<h3> Fecha de Nacimiento: 14/02/1976</h3>
-				<h3> Lugar de Nacimiento: Buenos Aires, Argentina</h3>
+				<h3>Nombres: Christian David</h3>
+				<h3>Apellido: Romano</h3>
+				<h3>Fecha de Nacimiento: 14/02/1976</h3>
+				<h3>Lugar de Nacimiento: Buenos Aires, Argentina</h3>
 			</div>
 		</header>
 
@@ -23,14 +25,80 @@
 			<nav>
 				<a href="index.html">Indice</a>
 				|
-				<a href="educacion.html">Educación</a>
+				<a href="educacion.html">Educaci&oacuten</a>
 				|
 				<a href="experiencia.html">Experiencia</a>
 			</nav>
 		</div>
 
-		<h2>Educación</h2>
-	
+		<h2>Educaci&oacuten</h2>
+		<table border="1">
+			<tr>
+				<td align="center">Año</td>
+				<td align="center">Instituci&oacuten</td>
+				<td align="center">Lugar</td>
+				<td align="center">Nivel</td>
+				<td align="center">¿Culmin&oacute?</td>
+			</tr>
+			<tr>
+				<td align="center">1982</td>
+				<td align="center">Escuela Mariano Moreno</td>
+				<td align="center">Buenos Aires</td>
+				<td align="center">Primario</td>
+				<td align="center">No</td>
+			</tr>
+			<tr>
+				<td align="center">1984</td>
+				<td align="center">Escuela Normal N°1</td>
+				<td align="center">Buenos Aires</td>
+				<td align="center">Primario</td>
+				<td align="center">Si</td>
+			</tr>
+			<tr>
+				<td align="center">1989</td>
+				<td align="center">Colegio Nacional de Buenos Aires</td>
+				<td align="center">Buenos Aires</td>
+				<td align="center">Secundario</td>
+				<td align="center">Si</td>
+			</tr>
+			<tr>
+				<td align="center">1995</td>
+				<td align="center">Universidad de Buenos Aires</td>
+				<td align="center">Buenos Aires</td>
+				<td align="center">Universitario</td>
+				<td align="center">Si</td>
+			</tr>
+		</table>
+
+		<h2>Agregar Estudios</h2>
+		
+		<form action="">
+			<p>
+				<label for="anio">Año: </label>
+				<select name="anio">
+					<option value="1">2016</option>
+					<option value="1">2015</option>
+					<option value="1">2014</option>
+					<option value="1">2013</option>
+					<option value="1">2012</option>
+					<option value="1">2011</option>
+					<option value="1">2010</option>
+				</select>
+			</p>
+			<p>
+				<label for="institucion">Instituci&oacuten: </label>
+				<input type="text" name="institucion" placeholder="Ej: Escuela N°1" autofocus required>
+			</p>
+				
+			<p>
+				<label for="lugar">Lugar: </label>
+				<textarea name="lugar" cols="30" rows="2" required></textarea>
+			</p>
+			<p>
+				<input type="submit" value="Enviar">
+			</p>
+		</form>
+
 		<footer>
 			<u>Mail</u>: <a href="mailto:christian.romano@gmail.com?subject=Feedback">christian.romano@gmail.com</a> ||
 			<u>Teléfono</u>: 15-4408-3031 ||
